@@ -115,6 +115,8 @@ Consider the data in [billboard.csv](https://github.com/jgscott/STA380/blob/bd40
 
 Use your skills in data wrangling and plotting to answer the following three questions.
 
+[code](https://github.com/mostwanted-786/NAAV/tree/main/02_Wrangling%20the%20Billboard%20Top%20100)
+
 ### Part (a)
 
 Make a table of the top 10 most popular songs since 1958, as measured by the *total number of weeks that a song spent on the Billboard Top 100.* Note that these data end in week 22 of 2021, so the most popular songs of 2021 will not have up-to-the-minute data; please send our apologies to The Weeknd.
