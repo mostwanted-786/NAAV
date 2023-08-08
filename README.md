@@ -146,3 +146,4 @@ Let's define a "ten-week hit" as a single song that appeared on the Billboard To
 3.  By default a bar plot will order the artists in alphabetical order. This is acceptable to turn in. But if you'd like to order them according to some other variable, you can use the `fct_reorder` function, described in [this blog post](https://datavizpyr.com/re-ordering-bars-in-barplot-in-r/). This is optional.
 
 ### Answer
+
