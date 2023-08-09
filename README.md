@@ -115,8 +115,6 @@ Consider the data in [billboard.csv](https://github.com/jgscott/STA380/blob/bd40
 
 Use your skills in data wrangling and plotting to answer the following three questions.
 
-[code](https://github.com/mostwanted-786/NAAV/tree/main/02_Wrangling%20the%20Billboard%20Top%20100)
-
 ### Part (a)
 
 Make a table of the top 10 most popular songs since 1958, as measured by the *total number of weeks that a song spent on the Billboard Top 100.* Note that these data end in week 22 of 2021, so the most popular songs of 2021 will not have up-to-the-minute data; please send our apologies to The Weeknd.
@@ -125,15 +123,11 @@ Your table should have **10 rows** and **3 columns**: `performer`, `song`, and `
 
 (*Note*: you'll want to use both `performer` and `song` in any `group_by` operations, to account for the fact that multiple unique songs can share the same title.)
 
-### Answer
-
 ### Part (b)
 
 Is the "musical diversity" of the Billboard Top 100 changing over time? Let's find out. We'll measure the musical diversity of given year as *the number of unique songs that appeared in the Billboard Top 100 that year.* Make a line graph that plots this measure of musical diversity over the years. The x axis should show the year, while the y axis should show the number of unique songs appearing at any position on the Billboard Top 100 chart in any week that year. For this part, please filter the data set so that it excludes the years 1958 and 2021, since we do not have complete data on either of those years. Give the figure an informative caption in which you explain what is shown in the figure and comment on any interesting trends you see.
 
 There are number of ways to accomplish the data wrangling here. For example, you could use two distinct sets of data-wrangling steps. The first set of steps would get you a table that counts the number of times that a given song appears on the Top 100 in a given year. The second set of steps operate on the result of the first set of steps; it would count the number of unique songs that appeared on the Top 100 in each year, *irrespective of how many times* it had appeared.
-
-### Answer
 
 ### Part (c)
 
@@ -148,4 +142,4 @@ Let's define a "ten-week hit" as a single song that appeared on the Billboard To
 3.  By default a bar plot will order the artists in alphabetical order. This is acceptable to turn in. But if you'd like to order them according to some other variable, you can use the `fct_reorder` function, described in [this blog post](https://datavizpyr.com/re-ordering-bars-in-barplot-in-r/). This is optional.
 
 ### Answer
-
+[code](https://github.com/mostwanted-786/NAAV/tree/main/02_Wrangling%20the%20Billboard%20Top%20100)
