@@ -2,7 +2,7 @@
 # Exercises
 
 ##### Group Members: 
-1. Akash Goyal (ag84248),
+1. Akash Goyal (ag84248)
 2. Nishant Singh (nsk779)
 3. Vaibhav Nagar (vn5339)
 4. Ambarish Narayan (an32967)
@@ -120,7 +120,7 @@ Consider the data in [billboard.csv](https://github.com/jgscott/STA380/blob/bd40
 
 Use your skills in data wrangling and plotting to answer the following three questions.
 
-[code](https://github.com/mostwanted-786/NAAV/tree/main/02_Wrangling%20the%20Billboard%20Top%20100)
+[code](https://github.com/mostwanted-786/NAAV/blob/main/02_Wrangling%20the%20Billboard%20Top%20100/Wrangling%20the%20Billboard%20Top%20100.ipynb)
 
 ### Part (a)
 
@@ -164,6 +164,7 @@ Let's define a "ten-week hit" as a single song that appeared on the Billboard To
 Do you agree with the conclusions of her on-staff stats guru? If so, point to evidence supporting his case. If not, explain specifically where and why the analysis goes wrong, and how it can be improved. Do you see the possibility of confounding variables for the relationship between rent and green status? If so, provide evidence for confounding, and see if you can also make a picture that visually shows how we might "adjust" for such a confounder. Tell your story in pictures, with appropriate introductory and supporting text.
 
 ### Solution:
+### [Code](https://github.com/mostwanted-786/NAAV/blob/main/03_Visual_%20story_telling%20part1_green_buildings/Visual_story_telling_part%20_Green_Buildings.ipynb)
 In order to understand and verify the conclusions drawn by the Excel guru, I created several charts to explore various aspects:
 
 ### Low Occupancy Rates:
@@ -219,13 +220,13 @@ Taking into account the preliminary analysis and the insights gained from the vi
 
 
 # Visual Story Telling Part 2
-## Visual story telling part 2: Capital Metro data
 
 ### Question:
 Your task is to create a figure, or set of related figures, that tell an interesting story about Capital Metro ridership patterns around the UT-Austin campus during the semester in question. Provide a clear annotation/caption for each figure, but the figure(s) should be more or less stand-alone, in that you shouldn't need many, many paragraphs to convey its meaning. 
 Rather, the figure together with a concise caption should speak for itself as far as possible.
 
 ### Solution:
+### [Code](https://github.com/mostwanted-786/NAAV/blob/main/04_Visual%20story%20telling%20part%202Capital%20Metro%20data/Visual_story_telling_Capital_Metro_data.ipynb)
 Effective storytelling often involves the creation of insightful visualizations. Here are the key visualizations for the Capital Metro ridership data around the UT-Austin campus during the semester:
 
 #### Ridership Distribution by Weekend and Weekday:
