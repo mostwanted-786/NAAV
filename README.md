@@ -1,4 +1,3 @@
-
 # Exercises
 
 ##### Group Members: 
@@ -322,6 +321,8 @@ To clarify: I'm not asking you to run a supervised learning algorithm. Rather, I
 
 ### Answer
 
+### [Code](https://github.com/mostwanted-786/NAAV/blob/main/05_Clustering%20and%20Dimensionality%20Reduction/Clustering%20and%20Dimensionality%20Reduction.ipynb)
+
 #### PCA | Wine Color Clustering                                                  
 ![PCA Output-1](https://github.com/mostwanted-786/NAAV/assets/32060433/8bcdbb20-2822-43ef-af11-33353ab73561)
 #### tSNE | Wine Color Clustering   
@@ -346,6 +347,9 @@ Each row of social_marketing.csv represents one user, labeled by a random (anony
 Your task to is analyze this data as you see fit, and to prepare a concise report for NutrientH20 that identifies any interesting market segments that appear to stand out in their social-media audience. You have complete freedom in deciding how to pre-process the data and how to define "market segment." (Is it a group of correlated interests? A cluster? A latent factor? Etc.) Just use the data to come up with some interesting, well-supported insights about the audience, and be clear about what you did.
 
 ### Answer
+
+### [Code](https://github.com/mostwanted-786/NAAV/blob/main/06_Market%20segmentation/Market%20Segmentation.ipynb)
+
 In the effort to create customer segments we did a dimensionality reduction exercise using PCA and then created customer cohorts using both Kmeans ++ and hierarchical clustering. We created 13 cohorts in the begining to start with, based on the elbow curve and the dendrogram respectively. For both the models 13 clusters looked like the optimum number. Customers in each cluster was then profiled to get the insights into the cluster. Since KMeans was giving much better defined clusters in our sense we went ahead with it. Furthermore, we decided to club some of the clusters having similar profiles of customers and finally have 10 clusters/segment of customers as below
 
 Cluster 1:
