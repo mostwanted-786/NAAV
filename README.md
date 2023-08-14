@@ -181,6 +181,31 @@ Your task to is analyze this data as you see fit, and to prepare a concise repor
 
 # Reuters Corpus
 
+We extracted the 25 most important topics from the training data using LDA (LatentDirichletAllocation). We then identified the most prevalent topic in the test set files. Some of the topics that were identified through LDA were:
+* Topic 1: ('united', 'states', 'trade', 'said', 'drug', 'china', 'ban', 'department', 'colombia', 'congress')
+* Topic 2: ('hong', 'kong', 'china', 'said', 'tung', 'chinese', 'people', 'territory', 'rule', 'says')
+* Topic 3: ('internet', 'corp', 'new', 'computer', 'said', 'software', 'technology', 'microsoft', 'network', 'services')
+* Topic 4: ('said', 'financial', 'chairman', 'president', 'statement', 'company', 'vice', 'board', 'right', 'street')
+* Topic 5: ('amp', 'local', 'long', 'market', 'competition', 'service', 'phone', 'cable', 'rules', 'companies')
+* Topic 6: ('told', 'reuters', 'director', 'interview', 'reporters', 'quality', 'telephone', 'areas', 'conference', 'managing')
+* Topic 7: ('china', 'said', 'beijing', 'chinese', 'official', 'taiwan', 'officials', 'economic', 'communist', 'state')
+* Topic 8: ('news', 'said', 'early', 'fund', '1997', 'joint', 'year', 'venture', 'start', '1998')
+* Topic 9: ('000', 'tonnes', 'said', 'saying', '100', 'cocoa', 'year', 'copper', '500', 'figures')
+* Topic 10: ('percent', 'gold', 'price', 'said', 'share', 'market', '20', 'bre', '15', 'stocks')
+* Topic 11: ('said', 'wang', 'court', 'rights', 'case', 'chinese', 'given', 'government', 'details', 'action')
+* Topic 12: ('chief', 'executive', 'said', 'company', 'years', 'officer', 'new', 'ago', 'development', 'chairman')
+
+The "Topics" contains the keywords.
+
+After analyzing the test data files, it was found that topic 7 is the most prevalent topic in the test files.
+
+![newplot](https://github.com/mostwanted-786/NAAV/assets/60353780/f0497b6e-03b5-4921-ba96-4e9c86e942a8)
+
+We also have a summary of the most frequent topics written by each of the writers.
+
+![newplot](https://github.com/mostwanted-786/NAAV/assets/60353780/3286a6e3-1b06-496a-8848-5334ce588b58)
+
+
 # Association rule mining
 
 We analyzed the hidden relationships in the dataset given, which consists of baskets (i.e., items purchased in a shopping kart). The lift value of greater than 10 was selected, indicating a higher positive relation between the rules, and a confidence value of greater than 0.5, indicating a high likelihood of the relation. Also after hit and trial, these values provided 14 relations to analyze.
