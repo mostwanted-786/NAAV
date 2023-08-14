@@ -466,7 +466,7 @@ This question will be graded according to three criteria:
   
   ![newplot](https://github.com/mostwanted-786/NAAV/assets/60353780/3286a6e3-1b06-496a-8848-5334ce588b58)
 
-* Conclusion: 
+* Conclusion: We identified distinct topics, each characterized by a set of keywords that provided meaningful context. The results of our analysis showcased a diverse range of topics present in the dataset, from global trade and technology advancements to legal cases and economic developments.s. We conducted an analysis of the test data files and determined that topic 7, centered around economic and geopolitical issues in China, emerged as the most prevalent topic among the test articles. This finding emphasizes the significance of this particular theme within the writings of the authors, potentially highlighting their expertise and areas of interest.
 
 # Association rule mining
 
