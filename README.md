@@ -1,3 +1,11 @@
+![output](https://github.com/mostwanted-786/NAAV/assets/32060433/b58290b5-87ab-40cf-891c-b2731f99e161)
+![output 10](https://github.com/mostwanted-786/NAAV/assets/32060433/f136d9fd-bb7a-4d50-9f8a-2d7c9cba6066)
+![output 9](https://github.com/mostwanted-786/NAAV/assets/32060433/0ec5880b-fefb-44ee-9d04-eb9fab489a04)
+![output 8](https://github.com/mostwanted-786/NAAV/assets/32060433/84d69465-170d-4653-9dd0-db2d1d22c0b6)
+![output 7](https://github.com/mostwanted-786/NAAV/assets/32060433/08504184-e1ef-4c12-9b1f-f4d141f9e399)
+![output 6](https://github.com/mostwanted-786/NAAV/assets/32060433/cc9cff77-d0fb-42e0-8c1f-252386a294c7)
+![output 5](https://github.com/mostwanted-786/NAAV/assets/32060433/8229f538-66d9-4911-a16c-49e3b480a40d)
+![output 4](https://github.com/mostwanted-786/NAAV/assets/32060433/615291d5-f763-4ab1-95ef-403a80f49325)
 # Exercises
 
 ##### Group Members: Akash Goyal, Nishant Singh, Vaibhav Nagar, Ambarish Narayan
@@ -189,6 +197,20 @@ A bit of background on the data collection: the advertising firm who runs Nutrie
 Each row of social_marketing.csv represents one user, labeled by a random (anonymous, unique) 9-digit alphanumeric code. Each column represents an interest, which are labeled along the top of the data file. The entries are the number of posts by a given user that fell into the given category. Two interests of note here are "spam" (i.e. unsolicited advertising) and "adult" (posts that are pornographic, salacious, or explicitly sexual). There are a lot of spam and pornography "bots" on Twitter; while these have been filtered out of the data set to some extent, there will certainly be some that slip through. There's also an "uncategorized" label. Annotators were told to use this sparingly, but it's there to capture posts that don't fit at all into any of the listed interest categories. (A lot of annotators may used the "chatter" category for this as well.) Keep in mind as you examine the data that you cannot expect perfect annotations of all posts. Some annotators might have simply been asleep at the wheel some, or even all, of the time! Thus there is some inevitable error and noisiness in the annotation process.
 
 Your task to is analyze this data as you see fit, and to prepare a concise report for NutrientH20 that identifies any interesting market segments that appear to stand out in their social-media audience. You have complete freedom in deciding how to pre-process the data and how to define "market segment." (Is it a group of correlated interests? A cluster? A latent factor? Etc.) Just use the data to come up with some interesting, well-supported insights about the audience, and be clear about what you did.
+
+### Answer
+
+![output](https://github.com/mostwanted-786/NAAV/assets/32060433/fca17bd8-7d0e-4eab-b850-aeb31c53573d)
+![output 2](https://github.com/mostwanted-786/NAAV/assets/32060433/feced31b-ff1a-42c9-994d-50fe274bd493)
+![output 3](https://github.com/mostwanted-786/NAAV/assets/32060433/b1feb107-49fa-44b8-8421-c04ad2227c06)
+![Uploading output 4.png…]()
+![output 5](https://github.com/mostwanted-786/NAAV/assets/32060433/95e90cc8-8df4-4e36-aaf1-690655a3be30)
+![output 6](https://github.com/mostwanted-786/NAAV/assets/32060433/202c444c-c7fe-49f8-9003-68565b34ab20)
+![Uploading output 7.png…]()
+![output 8](https://github.com/mostwanted-786/NAAV/assets/32060433/dd3e3963-4c6a-41f0-a270-7b0844a970e2)
+![output 9](https://github.com/mostwanted-786/NAAV/assets/32060433/1ed100ef-5fb2-46cc-aac4-35ddea823e74)
+![output 10](https://github.com/mostwanted-786/NAAV/assets/32060433/60790137-8c85-423d-8483-7b6c01e70de2)
+
 
 # Reuters Corpus
 
