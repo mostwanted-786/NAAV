@@ -506,16 +506,16 @@ I strongly recommend the use of PyTorch in a Jupyter notebook for this problem; 
 ### Answer
 
 The image data was trained with an 80/20 split between training and testing (refer to the [file](https://github.com/mostwanted-786/NAAV/blob/main/09_Image%20Classification/Image%20Classification.ipynb)). The following CNN was used to train the data:
-(conv1): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1))
-(conv2): Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1))
-(conv3): Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1))
-(dropout1): Dropout(p=0.25, inplace=False)
-(dropout2): Dropout(p=0.5, inplace=False)
-(dropout3): Dropout(p=0.7, inplace=False)
-(fc1): Linear(in_features=215296, out_features=2048, bias=True)
-(fc3): Linear(in_features=2048, out_features=512, bias=True)
-(fc4): Linear(in_features=512, out_features=128, bias=True)
-(fc5): Linear(in_features=128, out_features=10, bias=True)
+* (conv1): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1))
+* (conv2): Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1))
+* (conv3): Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1))
+* (dropout1): Dropout(p=0.25, inplace=False)
+* (dropout2): Dropout(p=0.5, inplace=False)
+* (dropout3): Dropout(p=0.7, inplace=False)
+* (fc1): Linear(in_features=215296, out_features=2048, bias=True)
+* (fc3): Linear(in_features=2048, out_features=512, bias=True)
+* (fc4): Linear(in_features=512, out_features=128, bias=True)
+* (fc5): Linear(in_features=128, out_features=10, bias=True)
 
 A sample prediction in the final stages of training is shown below:
 
