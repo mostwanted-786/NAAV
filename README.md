@@ -2,7 +2,7 @@
 
 ##### Group Members: Akash Goyal, Nishant Singh, Vaibhav Nagar, Ambarish Narayan
 
-## Probability Practice
+# Probability Practice
 
 ### Part (a)
 
@@ -99,7 +99,7 @@ P(D\|P) = (0.993 \* 0.000025) / 0.0001249 ≈ 0.1995
 
 Therefore, the probability that someone who tests positive actually has the disease is approximately 0.1995 or 19.95%. Despite the high sensitivity and specificity of the test, due to the rarity of the disease in the general population, the positive predictive value is relatively low.
 
-## Wrangling the Billboard Top 100
+# Wrangling the Billboard Top 100
 
 Consider the data in [billboard.csv](https://github.com/jgscott/STA380/blob/bd4000b1d6146fc4137e76a110b7c2d3f8951e27/data/billboard.csv) containing every song to appear on the weekly [Billboard Top 100](https://www.billboard.com/charts/hot-100/) chart since 1958, up through the middle of 2021. Each row of this data corresponds to a single song in a single week. For our purposes, the relevant columns here are:
 
@@ -151,4 +151,51 @@ Let's define a "ten-week hit" as a single song that appeared on the Billboard To
 
 ### Answer
 ![newplot (1)](https://github.com/mostwanted-786/NAAV/assets/137720186/210ee1ae-9a6c-4a22-8bb9-5af24c293e00)
+
+# Visual Story Telling Part 1
+
+# Visual Story Telling Part 2
+
+# Clustering and Dimensionality
+
+# Market Segmentation
+
+# Reuters Corpus
+
+# Association rule mining
+
+We analyzed the hidden relationships in the dataset given, which consists of baskets (i.e., items purchased in a shopping kart). The lift value of greater than 10 was selected, indicating a higher positive relation between the rules, and a confidence value of greater than 0.5, indicating a high likelihood of the relation. Also after hit and trial, these values provided 14 relations to analyze.
+
+After looking at the rules we inferred a lot of exciting associations:
+* People who buy liquor or red/blush wine tend to buy bottled beer as well, indicating that all the liquor sections should be located in close proximity.
+* People who buy ham, cheese, or eggs also buy white bread. this indicates that all these items are related.
+* People who buy baking powder and soda also buy sugar, maybe for baking a cake or something. If these items are located together then it will be easier for the people to grab the items.
+* Root vegetables have a high lift value with other fruits and vegetables, so they can be placed together. This makes sense since most people shop for their vegetables and fruits together.
+
+# Image classification with neural networks
+
+The image data was trained with an 80/20 split between training and testing. The following CNN was used to train the data:
+(conv1): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1))
+(conv2): Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1))
+(conv3): Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1))
+(dropout1): Dropout(p=0.25, inplace=False)
+(dropout2): Dropout(p=0.5, inplace=False)
+(dropout3): Dropout(p=0.7, inplace=False)
+(fc1): Linear(in_features=215296, out_features=2048, bias=True)
+(fc3): Linear(in_features=2048, out_features=512, bias=True)
+(fc4): Linear(in_features=512, out_features=128, bias=True)
+(fc5): Linear(in_features=128, out_features=10, bias=True)
+
+A sample prediction in the final stages of training is shown below:
+
+![image](https://github.com/mostwanted-786/NAAV/assets/60353780/8a20134f-cfa5-49d9-baa4-0d07e7deea98)
+
+Actual: 6 4 6 9 9 2 1 1
+Predicted: 6 4 3 9 9 2 1 1
+
+The final accuracy of the model is: ~94%
+
+The confusion matrix on the test data is shown below:
+
+![image](https://github.com/mostwanted-786/NAAV/assets/60353780/2bd11db8-bbaa-452c-b5ec-972f2339c838)
 
