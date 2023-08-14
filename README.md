@@ -130,7 +130,7 @@ Your table should have **10 rows** and **3 columns**: `performer`, `song`, and `
 (*Note*: you'll want to use both `performer` and `song` in any `group_by` operations, to account for the fact that multiple unique songs can share the same title.)
 
 ### Answer
-![image](https://github.com/mostwanted-786/NAAV/assets/137720186/9bc9312e-3122-4abc-bf22-df176737c05f)
+![image](https://github.com/mostwanted-786/NAAV/assets/137720186/d81026d2-741d-442e-abeb-b97444227e8c)
 
 ### Part (b)
 
@@ -139,7 +139,7 @@ Is the "musical diversity" of the Billboard Top 100 changing over time? Let's fi
 There are number of ways to accomplish the data wrangling here. For example, you could use two distinct sets of data-wrangling steps. The first set of steps would get you a table that counts the number of times that a given song appears on the Top 100 in a given year. The second set of steps operate on the result of the first set of steps; it would count the number of unique songs that appeared on the Top 100 in each year, *irrespective of how many times* it had appeared.
 
 ### Answer
-![newplot](https://github.com/mostwanted-786/NAAV/assets/137720186/0789dc36-9a85-463f-96bf-7a6572b3b7b7)
+![image](https://github.com/mostwanted-786/NAAV/assets/137720186/9442d0a6-2d29-4fc2-8bb0-d0257dc825f8)
 
 ### Part (c)
 
@@ -154,7 +154,7 @@ Let's define a "ten-week hit" as a single song that appeared on the Billboard To
 3.  By default a bar plot will order the artists in alphabetical order. This is acceptable to turn in. But if you'd like to order them according to some other variable, you can use the `fct_reorder` function, described in [this blog post](https://datavizpyr.com/re-ordering-bars-in-barplot-in-r/). This is optional.
 
 ### Answer
-![newplot (1)](https://github.com/mostwanted-786/NAAV/assets/137720186/210ee1ae-9a6c-4a22-8bb9-5af24c293e00)
+![image](https://github.com/mostwanted-786/NAAV/assets/137720186/b1cdb433-32eb-40fe-a199-db2cef63a47d)
 
 
 # Visual story telling part 1: green buildings
