@@ -424,9 +424,9 @@ This question will be graded according to three criteria:
 
 ### Answer
 
-* Question: Identify some topics from the text data and summarize your findings.
+* Question: Identify topics from the text data and summarize your findings.
 
-* Approach: We utilized Latent Dirichlet Allocation (LDA), a generative probabilistic model, to extract the most important topics from the training data. LDA works by assuming that each document in the corpus is a mixture of a small number of topics, and each word's presence is attributable to one of the document's topics. We then identified the most prevalent topic in the test set files ([analysis notebook](https://github.com/mostwanted-786/NAAV/blob/main/07_Reuters%20Corpus/Reuters.ipynb)).
+* Approach: We utilized Latent Dirichlet Allocation (LDA), a generative probabilistic model, to extract the most important topics from the training data. LDA works by assuming that each document in the corpus is a mixture of a small number of topics and that each word's presence is attributable to one of the document's topics. We then identified the most prevalent topic in the test set files ([analysis notebook](https://github.com/mostwanted-786/NAAV/blob/main/07_Reuters%20Corpus/Reuters.ipynb)).
 
 * Results: Some of the topics that were identified through LDA were:
 
