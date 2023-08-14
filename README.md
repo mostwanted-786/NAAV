@@ -1,7 +1,11 @@
 
 # Exercises
 
-##### Group Members: Akash Goyal, Nishant Singh, Vaibhav Nagar, Ambarish Narayan
+##### Group Members: 
+1. Akash Goyal (ag84248),
+2. Nishant Singh (nsk779)
+3. Vaibhav Nagar (vn5339)
+4. Ambarish Narayan (an32967)
 
 # Probability Practice
 
@@ -425,21 +429,35 @@ This question will be graded according to three criteria:
 * Approach: We utilized Latent Dirichlet Allocation (LDA), a generative probabilistic model, to extract the most important topics from the training data. LDA works by assuming that each document in the corpus is a mixture of a small number of topics, and each word's presence is attributable to one of the document's topics. We then identified the most prevalent topic in the test set files ([analysis notebook](https://github.com/mostwanted-786/NAAV/blob/main/07_Reuters%20Corpus/Reuters.ipynb)).
 
 * Results: Some of the topics that were identified through LDA were:
-  * Topic 1: ('united', 'states', 'trade', 'said', 'drug', 'china', 'ban', 'department', 'colombia', 'congress')
-  * Topic 2: ('hong', 'kong', 'china', 'said', 'tung', 'chinese', 'people', 'territory', 'rule', 'says')
-  * Topic 3: ('internet', 'corp', 'new', 'computer', 'said', 'software', 'technology', 'microsoft', 'network', 'services')
-  * Topic 4: ('said', 'financial', 'chairman', 'president', 'statement', 'company', 'vice', 'board', 'right', 'street')
-  * Topic 5: ('amp', 'local', 'long', 'market', 'competition', 'service', 'phone', 'cable', 'rules', 'companies')
-  * Topic 6: ('told', 'reuters', 'director', 'interview', 'reporters', 'quality', 'telephone', 'areas', 'conference', 'managing')
-  * Topic 7: ('china', 'said', 'beijing', 'chinese', 'official', 'taiwan', 'officials', 'economic', 'communist', 'state')
-  * Topic 8: ('news', 'said', 'early', 'fund', '1997', 'joint', 'year', 'venture', 'start', '1998')
-  * Topic 9: ('000', 'tonnes', 'said', 'saying', '100', 'cocoa', 'year', 'copper', '500', 'figures')
-  * Topic 10: ('percent', 'gold', 'price', 'said', 'share', 'market', '20', 'bre', '15', 'stocks')
-  * Topic 11: ('said', 'wang', 'court', 'rights', 'case', 'chinese', 'given', 'government', 'details', 'action')
-  * Topic 12: ('chief', 'executive', 'said', 'company', 'years', 'officer', 'new', 'ago', 'development', 'chairman')
-  
-  The "Topics" contains the keywords.
-  
+
+| Topic    | Keywords                                                                                       | Class                                     |
+|----------|:----------------------------------------------------------------------------------------------:|------------------------------------------:|
+| Topic 1  | united, states, trade, said, drug, china, ban, department, colombia, congress                  | International Trade                       |
+| Topic 2  | hong, kong, china, said, tung, chinese, people, territory, rule, says                          | Hong Kong-China Relations                 |
+| Topic 3  | internet, corp, new, computer, said, software, technology, microsoft, network, services        | Technology and Software                   |
+| Topic 4  | said, financial, chairman, president, statement, company, vice, board, right, street           | Corporate Leadership and Governance       |
+| Topic 5  | amp, local, long, market, competition, service, phone, cable, rules, companies                 | Telecommunications and Market Competition |
+| Topic 6  | told, reuters, director, interview, reporters, quality, telephone, areas, conference, managing | Media and Communication                   |
+| Topic 7  | china, said, beijing, chinese, official, taiwan, officials, economic, communist, state         | Chinese Economy and Policy                |
+| Topic 8  | news, said, early, fund, 1997, joint, year, venture, start, 1998                               | News and Media Industry                   |
+| Topic 9  | 000, tonnes, said, saying, 100, cocoa, year, copper, 500, figures                              | Commodity Markets                         |
+| Topic 10 | percent, gold, price, said, share, market, 20, bre, 15, stocks                                 | Financial Markets and Investment          |
+| Topic 11 | said, wang, court, rights, case, chinese, given, government, details, action                   | Human Rights and Legal Cases              |
+| Topic 12 | chief, executive, said, company, years, officer, new, ago, development, chairman               | Business Leadership and Development       |
+| Topic 13 | bank, banks, year, percent, rate, canada, central, credit, said, banking                       | Banking and Finance                       |
+| Topic 14 | million, year, pounds, profit, profits, half, 1995, net, percent, 30                           | Financial Performance                     |
+| Topic 15 | deal, company, largest, merger, world, mci, bt, british, stake, percent                        | Mergers and Acquisitions                  |
+| Topic 16 | billion, year, total, debt, said, francs, worth, ve, percent, got                              | Financial Transactions and Debt           |
+| Topic 17 | said, analyst, think, going, market, term, good, don, people, added                            | Market Analysis and Forecasting           |
+| Topic 18 | quarter, sales, year, said, earnings, share, analysts, expected, results, company              | Corporate Earnings and Results            |
+| Topic 19 | government, said, czech, general, minister, ahead, finance, party, house, ministry             | Government and Politics                   |
+| Topic 20 | said, offer, shareholders, french, american, airbus, south, company, north, new                | Corporate Shares and Ownership            |
+| Topic 21 | british, pence, bid, air, share, plc, group, said, dividend, britain                           | Stock Market and Investments              |
+| Topic 22 | said, prices, oil, year, demand, russia, domestic, set, rates, export                          | Oil and Energy Markets                    |
+| Topic 23 | business, said, life, insurance, japan, market, financial, non, group, banks                   | Business and Finance in Japan             |
+| Topic 24 | gm, said, workers, plant, agreement, union, ford, car, plants, comment                         | Automotive Industry and Labor Relations   |
+| Topic 25 | stock, shares, trading, exchange, new, close, york, points, share, toronto                     | Stock Market Trading and Exchanges        |
+
   After analyzing the test data files, it was found that topic 7 is the most prevalent topic in the test files.
   
   ![newplot](https://github.com/mostwanted-786/NAAV/assets/60353780/f0497b6e-03b5-4921-ba96-4e9c86e942a8)
