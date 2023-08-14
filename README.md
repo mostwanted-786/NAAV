@@ -166,9 +166,15 @@ Run PCA, tSNE, and any clustering algorithm of your choice on the 11 chemical pr
 To clarify: I'm not asking you to run a supervised learning algorithm. Rather, I'm asking you to see whether the differences in the labels (red/white and quality score) emerge naturally from applying an unsupervised technique to the chemical properties. This should be straightforward to assess using plots.
 
 ### Answer
+![PCA Output-1](https://github.com/mostwanted-786/NAAV/assets/32060433/8bcdbb20-2822-43ef-af11-33353ab73561)
+![tSNE Output -1](https://github.com/mostwanted-786/NAAV/assets/32060433/02589b2f-e123-477e-91e3-ff26b3fb9b65)
+
 Looking at the plots on actual vs predicted for wine color as well as the model accuracy it is evident that PCA is a better dimensionality reduction technique for this dataset. A Kmeans algorithm on data after PCA with just 2 variables is doing far better job (better accuracy) than that from tSNE.
 
-A look at the actual vs predictions plot made on wine quality using clustering tells us that both the techniques are not able to distinguish between the qualities of wines.
+![tSNE Output -2](https://github.com/mostwanted-786/NAAV/assets/32060433/0b44ff8f-bf26-49b2-b064-b3f3633a4561)
+![PCA Output -2](https://github.com/mostwanted-786/NAAV/assets/32060433/087ad1ae-96b4-4c56-a84f-9ee19a2e5475)
+
+The actual vs predictions plot made on wine quality using clustering tells us that both the techniques are not able to distinguish between the qualities of wines.
 
 # Market Segmentation
 Consider the data in social_marketing.csv. This was data collected in the course of a market-research study using followers of the Twitter account of a large consumer brand that shall remain nameless---let's call it "NutrientH20" just to have a label. The goal here was for NutrientH20 to understand its social-media audience a little bit better, so that it could hone its messaging a little more sharply.
