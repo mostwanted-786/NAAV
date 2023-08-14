@@ -192,7 +192,7 @@ Your task to is analyze this data as you see fit, and to prepare a concise repor
 
 ### Answer
 
-In the effort to create customer segments we did a dimensionality reduction exercise using PCA and then created customer cohorts using both Kmeans and hierarchical clustering. We created 13 cohorts in the begining to start with, based on the elbow curve and the dendrogram. For both the models 13 clusters looked like the optimum number. Customers in each cluster was then profiled to get the insights into the cluster. Since KMeans was giving much better defined clusters in our sense we went ahead with it. Furthermore, we decided to club some of the clusters having similar profiles of customers and finally have 10 clusters/segment of customers as below
+In the effort to create customer segments we did a dimensionality reduction exercise using PCA and then created customer cohorts using both Kmeans ++ and hierarchical clustering. We created 13 cohorts in the begining to start with, based on the elbow curve and the dendrogram respectively. For both the models 13 clusters looked like the optimum number. Customers in each cluster was then profiled to get the insights into the cluster. Since KMeans was giving much better defined clusters in our sense we went ahead with it. Furthermore, we decided to club some of the clusters having similar profiles of customers and finally have 10 clusters/segment of customers as below
 
 ![output](https://github.com/mostwanted-786/NAAV/assets/32060433/fca17bd8-7d0e-4eab-b850-aeb31c53573d)
 ![output 2](https://github.com/mostwanted-786/NAAV/assets/32060433/feced31b-ff1a-42c9-994d-50fe274bd493)
