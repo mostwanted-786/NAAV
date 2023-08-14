@@ -341,20 +341,21 @@ Each row of social_marketing.csv represents one user, labeled by a random (anony
 Your task to is analyze this data as you see fit, and to prepare a concise report for NutrientH20 that identifies any interesting market segments that appear to stand out in their social-media audience. You have complete freedom in deciding how to pre-process the data and how to define "market segment." (Is it a group of correlated interests? A cluster? A latent factor? Etc.) Just use the data to come up with some interesting, well-supported insights about the audience, and be clear about what you did.
 
 ### Answer
-
 In the effort to create customer segments we did a dimensionality reduction exercise using PCA and then created customer cohorts using both Kmeans ++ and hierarchical clustering. We created 13 cohorts in the begining to start with, based on the elbow curve and the dendrogram respectively. For both the models 13 clusters looked like the optimum number. Customers in each cluster was then profiled to get the insights into the cluster. Since KMeans was giving much better defined clusters in our sense we went ahead with it. Furthermore, we decided to club some of the clusters having similar profiles of customers and finally have 10 clusters/segment of customers as below
 
 Cluster 0:
 This compriese of people who are art enthusiasts and watch movies. We belive that these are people who use the product during movies or possibly art exhibitions as refreshment
 
-![output 0](https://github.com/mostwanted-786/NAAV/assets/32060433/631422be-ca4f-4b67-8fbc-6a254e6b2bdb)
-![output 1](https://github.com/mostwanted-786/NAAV/assets/32060433/26d648db-5802-456b-aece-8abf3032f015)
-![output 2](https://github.com/mostwanted-786/NAAV/assets/32060433/764b9d4b-c4a9-41bc-ab35-2416116bf506)
-![output 3](https://github.com/mostwanted-786/NAAV/assets/32060433/76df6fb8-1925-4cdb-b6d1-961f2ba254ee)
-![output 4](https://github.com/mostwanted-786/NAAV/assets/32060433/e08ccf66-d5c2-4cf7-98e0-0efbda12031d)
-![output 5](https://github.com/mostwanted-786/NAAV/assets/32060433/9ed171b5-d149-461b-b931-c8849afdb574)
-![output 6](https://github.com/mostwanted-786/NAAV/assets/32060433/2399eb16-218f-434a-9710-3ce2a0dbd8de)
 
+![output1](https://github.com/mostwanted-786/NAAV/assets/32060433/4d15acfa-4e8a-44e0-9804-b6a84cd9db9b)
+![output2](https://github.com/mostwanted-786/NAAV/assets/32060433/d89097f3-84b3-4958-a7ce-0e1394affe6a)
+![output3](https://github.com/mostwanted-786/NAAV/assets/32060433/b9474ee6-a7e7-4a88-8c5b-3497de56b4b4)
+![output4](https://github.com/mostwanted-786/NAAV/assets/32060433/f606f00e-310f-495d-adff-39c6b0d625f6)
+![output5](https://github.com/mostwanted-786/NAAV/assets/32060433/f5079049-bfe4-4546-90d4-ec774691a52b)
+![output6](https://github.com/mostwanted-786/NAAV/assets/32060433/1ae08997-ac78-427a-a281-3fdaedd5e8d9)
+![output7](https://github.com/mostwanted-786/NAAV/assets/32060433/b84c4c82-ef64-4de8-9324-1fd80d8a0e1a)
+![output8](https://github.com/mostwanted-786/NAAV/assets/32060433/9bb7001b-d672-48f6-8e96-2f5d1ae76108)
+![output9](https://github.com/mostwanted-786/NAAV/assets/32060433/391b4aa4-338e-4ae4-8b59-690014967d76)
 
 
 
