@@ -1,11 +1,3 @@
-![output](https://github.com/mostwanted-786/NAAV/assets/32060433/b58290b5-87ab-40cf-891c-b2731f99e161)
-![output 10](https://github.com/mostwanted-786/NAAV/assets/32060433/f136d9fd-bb7a-4d50-9f8a-2d7c9cba6066)
-![output 9](https://github.com/mostwanted-786/NAAV/assets/32060433/0ec5880b-fefb-44ee-9d04-eb9fab489a04)
-![output 8](https://github.com/mostwanted-786/NAAV/assets/32060433/84d69465-170d-4653-9dd0-db2d1d22c0b6)
-![output 7](https://github.com/mostwanted-786/NAAV/assets/32060433/08504184-e1ef-4c12-9b1f-f4d141f9e399)
-![output 6](https://github.com/mostwanted-786/NAAV/assets/32060433/cc9cff77-d0fb-42e0-8c1f-252386a294c7)
-![output 5](https://github.com/mostwanted-786/NAAV/assets/32060433/8229f538-66d9-4911-a16c-49e3b480a40d)
-![output 4](https://github.com/mostwanted-786/NAAV/assets/32060433/615291d5-f763-4ab1-95ef-403a80f49325)
 # Exercises
 
 ##### Group Members: Akash Goyal, Nishant Singh, Vaibhav Nagar, Ambarish Narayan
@@ -203,10 +195,10 @@ Your task to is analyze this data as you see fit, and to prepare a concise repor
 ![output](https://github.com/mostwanted-786/NAAV/assets/32060433/fca17bd8-7d0e-4eab-b850-aeb31c53573d)
 ![output 2](https://github.com/mostwanted-786/NAAV/assets/32060433/feced31b-ff1a-42c9-994d-50fe274bd493)
 ![output 3](https://github.com/mostwanted-786/NAAV/assets/32060433/b1feb107-49fa-44b8-8421-c04ad2227c06)
-![Uploading output 4.png…]()
+![output 4](https://github.com/mostwanted-786/NAAV/assets/32060433/bb9a1f61-d46f-4e84-822a-43b6155ab539)
 ![output 5](https://github.com/mostwanted-786/NAAV/assets/32060433/95e90cc8-8df4-4e36-aaf1-690655a3be30)
 ![output 6](https://github.com/mostwanted-786/NAAV/assets/32060433/202c444c-c7fe-49f8-9003-68565b34ab20)
-![Uploading output 7.png…]()
+![output 7](https://github.com/mostwanted-786/NAAV/assets/32060433/17367161-71b6-4c83-a815-f719da097c41)
 ![output 8](https://github.com/mostwanted-786/NAAV/assets/32060433/dd3e3963-4c6a-41f0-a270-7b0844a970e2)
 ![output 9](https://github.com/mostwanted-786/NAAV/assets/32060433/1ed100ef-5fb2-46cc-aac4-35ddea823e74)
 ![output 10](https://github.com/mostwanted-786/NAAV/assets/32060433/60790137-8c85-423d-8483-7b6c01e70de2)
