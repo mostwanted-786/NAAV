@@ -167,16 +167,16 @@ To clarify: I'm not asking you to run a supervised learning algorithm. Rather, I
 
 ### Answer
 
-#### PCA                                                   
+#### PCA | Wine Color Clustering                                                  
 ![PCA Output-1](https://github.com/mostwanted-786/NAAV/assets/32060433/8bcdbb20-2822-43ef-af11-33353ab73561)
-#### tSNE
+#### tSNE | Wine Color Clustering   
 ![tSNE Output -1](https://github.com/mostwanted-786/NAAV/assets/32060433/02589b2f-e123-477e-91e3-ff26b3fb9b65)
 
 Looking at the plots on actual vs predicted for wine color as well as the model accuracy it is evident that PCA is a better dimensionality reduction technique for this dataset. A Kmeans algorithm on data after PCA with just 2 variables is doing far better job (better accuracy) than that from tSNE.
 
-#### PCA 
+#### PCA | Wine Quality Clustering   
 ![PCA Output -2](https://github.com/mostwanted-786/NAAV/assets/32060433/087ad1ae-96b4-4c56-a84f-9ee19a2e5475)
-#### tSNE
+#### tSNE | Wine Quality Clustering 
 ![tSNE Output -2](https://github.com/mostwanted-786/NAAV/assets/32060433/0b44ff8f-bf26-49b2-b064-b3f3633a4561)
 
 The actual vs predictions plot made on wine quality using clustering tells us that both the techniques are not able to distinguish between the qualities of wines.
