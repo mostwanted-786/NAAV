@@ -1,3 +1,4 @@
+
 # Exercises
 
 ##### Group Members: Akash Goyal, Nishant Singh, Vaibhav Nagar, Ambarish Narayan
@@ -194,16 +195,18 @@ Your task to is analyze this data as you see fit, and to prepare a concise repor
 
 In the effort to create customer segments we did a dimensionality reduction exercise using PCA and then created customer cohorts using both Kmeans ++ and hierarchical clustering. We created 13 cohorts in the begining to start with, based on the elbow curve and the dendrogram respectively. For both the models 13 clusters looked like the optimum number. Customers in each cluster was then profiled to get the insights into the cluster. Since KMeans was giving much better defined clusters in our sense we went ahead with it. Furthermore, we decided to club some of the clusters having similar profiles of customers and finally have 10 clusters/segment of customers as below
 
-![output](https://github.com/mostwanted-786/NAAV/assets/32060433/fca17bd8-7d0e-4eab-b850-aeb31c53573d)
-![output 2](https://github.com/mostwanted-786/NAAV/assets/32060433/feced31b-ff1a-42c9-994d-50fe274bd493)
-![output 3](https://github.com/mostwanted-786/NAAV/assets/32060433/b1feb107-49fa-44b8-8421-c04ad2227c06)
-![output 4](https://github.com/mostwanted-786/NAAV/assets/32060433/bb9a1f61-d46f-4e84-822a-43b6155ab539)
-![output 5](https://github.com/mostwanted-786/NAAV/assets/32060433/95e90cc8-8df4-4e36-aaf1-690655a3be30)
-![output 6](https://github.com/mostwanted-786/NAAV/assets/32060433/202c444c-c7fe-49f8-9003-68565b34ab20)
-![output 7](https://github.com/mostwanted-786/NAAV/assets/32060433/17367161-71b6-4c83-a815-f719da097c41)
-![output 8](https://github.com/mostwanted-786/NAAV/assets/32060433/dd3e3963-4c6a-41f0-a270-7b0844a970e2)
-![output 9](https://github.com/mostwanted-786/NAAV/assets/32060433/1ed100ef-5fb2-46cc-aac4-35ddea823e74)
-![output 10](https://github.com/mostwanted-786/NAAV/assets/32060433/60790137-8c85-423d-8483-7b6c01e70de2)
+Cluster 0:
+This compriese of people who are art enthusiasts and watch movies. We belive that these are people who use the product during movies or possibly art exhibitions as refreshment
+
+![output 0](https://github.com/mostwanted-786/NAAV/assets/32060433/631422be-ca4f-4b67-8fbc-6a254e6b2bdb)
+![output 1](https://github.com/mostwanted-786/NAAV/assets/32060433/26d648db-5802-456b-aece-8abf3032f015)
+![output 2](https://github.com/mostwanted-786/NAAV/assets/32060433/764b9d4b-c4a9-41bc-ab35-2416116bf506)
+![output 3](https://github.com/mostwanted-786/NAAV/assets/32060433/76df6fb8-1925-4cdb-b6d1-961f2ba254ee)
+![output 4](https://github.com/mostwanted-786/NAAV/assets/32060433/e08ccf66-d5c2-4cf7-98e0-0efbda12031d)
+![output 5](https://github.com/mostwanted-786/NAAV/assets/32060433/9ed171b5-d149-461b-b931-c8849afdb574)
+![output 6](https://github.com/mostwanted-786/NAAV/assets/32060433/2399eb16-218f-434a-9710-3ce2a0dbd8de)
+
+
 
 
 # Reuters Corpus
