@@ -347,35 +347,43 @@ Cluster 1:
 ![output1](https://github.com/mostwanted-786/NAAV/assets/32060433/4d15acfa-4e8a-44e0-9804-b6a84cd9db9b)
 This comprises of people who are chatting with each other on twitter a lot. They also share details around what they are doing in their normal everyday life. This cohort is the biggest one in terms of the number
 
+
 Cluster 2:
 ![output2](https://github.com/mostwanted-786/NAAV/assets/32060433/d89097f3-84b3-4958-a7ce-0e1394affe6a)
 These are sports enthusiasts and highly active people. They are also into healthy fooding and cooking habits and post about in their twitter
+
 
 Cluster 3:
 ![output3](https://github.com/mostwanted-786/NAAV/assets/32060433/b9474ee6-a7e7-4a88-8c5b-3497de56b4b4)
 This comprises of people who are art enthusiasts and watch movies. We believe that these are people who use the product during movies or possibly art exhibitions as refreshment
 
+
 Cluster 4:
 ![output4](https://github.com/mostwanted-786/NAAV/assets/32060433/f606f00e-310f-495d-adff-39c6b0d625f6)
 This cohort comprised of mostly college going adults who are also very much into gaming
+
 
 Cluster 5:
 ![output5](https://github.com/mostwanted-786/NAAV/assets/32060433/f5079049-bfe4-4546-90d4-ec774691a52b)
 In this cluster we believe we have family oriented and religious people who are talking about food, parenting,school etc
 
+
 Cluster 6:
 ![output6](https://github.com/mostwanted-786/NAAV/assets/32060433/1ae08997-ac78-427a-a281-3fdaedd5e8d9)
 This cohort comprises of people with posts that are pornographic, salacious, or explicitly sexual. Also, this is the smallest of all cohorts in terms of population.
+
 
 Cluster 7:
 ![output7](https://github.com/mostwanted-786/NAAV/assets/32060433/b84c4c82-ef64-4de8-9324-1fd80d8a0e1a)
 The cohort comprises of people who are more into cooking, photo sharing, fashion and beauty. We hypothesise that these are mostly women
 
+
 Cluster 8:
 ![output8](https://github.com/mostwanted-786/NAAV/assets/32060433/9bb7001b-d672-48f6-8e96-2f5d1ae76108)
 The cohort comprises of people who talking about news, politics, automotives and sports. This could be a pool of mature adults who are into car/ bike racing sports
 
-Cluster 8:
+
+Cluster 9:
 ![output9](https://github.com/mostwanted-786/NAAV/assets/32060433/391b4aa4-338e-4ae4-8b59-690014967d76)
 The cohort comprises of people who talking about politics and travel
 
