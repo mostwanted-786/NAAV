@@ -343,18 +343,40 @@ Your task to is analyze this data as you see fit, and to prepare a concise repor
 ### Answer
 In the effort to create customer segments we did a dimensionality reduction exercise using PCA and then created customer cohorts using both Kmeans ++ and hierarchical clustering. We created 13 cohorts in the begining to start with, based on the elbow curve and the dendrogram respectively. For both the models 13 clusters looked like the optimum number. Customers in each cluster was then profiled to get the insights into the cluster. Since KMeans was giving much better defined clusters in our sense we went ahead with it. Furthermore, we decided to club some of the clusters having similar profiles of customers and finally have 10 clusters/segment of customers as below
 
-Cluster 0:
-This compriese of people who are art enthusiasts and watch movies. We belive that these are people who use the product during movies or possibly art exhibitions as refreshment
-
-
+Cluster 1:
+This comprises of people who are chat with each other on twitter a lot. They also share details around what they are doing in their normal everyday life. This cohort is the biggest one in terms of the number
 ![output1](https://github.com/mostwanted-786/NAAV/assets/32060433/4d15acfa-4e8a-44e0-9804-b6a84cd9db9b)
+
+Cluster 2:
+These are sports enthusiasts and highly active people. They are also into healthy fooding and cooking habits and post about in their twitter
 ![output2](https://github.com/mostwanted-786/NAAV/assets/32060433/d89097f3-84b3-4958-a7ce-0e1394affe6a)
+
+Cluster 3:
+This comprises of people who are art enthusiasts and watch movies. We believe that these are people who use the product during movies or possibly art exhibitions as refreshment
 ![output3](https://github.com/mostwanted-786/NAAV/assets/32060433/b9474ee6-a7e7-4a88-8c5b-3497de56b4b4)
+
+Cluster 4:
+This cohort comprised of mostly college going adults who are also very much into gaming
 ![output4](https://github.com/mostwanted-786/NAAV/assets/32060433/f606f00e-310f-495d-adff-39c6b0d625f6)
+
+Cluster 5:
+In this cluster we believe we have family oriented and religious people who are talking about food, parenting,school etc
 ![output5](https://github.com/mostwanted-786/NAAV/assets/32060433/f5079049-bfe4-4546-90d4-ec774691a52b)
+
+Cluster 6:
+This cohort comprises of people with posts that are pornographic, salacious, or explicitly sexual. Also, this is the smallest of all cohorts in terms of population.
 ![output6](https://github.com/mostwanted-786/NAAV/assets/32060433/1ae08997-ac78-427a-a281-3fdaedd5e8d9)
+
+Cluster 7:
+The cohort comprises of people who are more into cooking, photo sharing, fashion and beauty. We hypothesise that these are mostly women
 ![output7](https://github.com/mostwanted-786/NAAV/assets/32060433/b84c4c82-ef64-4de8-9324-1fd80d8a0e1a)
+
+Cluster 8:
+The cohort comprises of people who talking about news, politics, automotives and sports. This could be a pool of mature adults who are into car/ bike racing sports
 ![output8](https://github.com/mostwanted-786/NAAV/assets/32060433/9bb7001b-d672-48f6-8e96-2f5d1ae76108)
+
+Cluster 8:
+The cohort comprises of people who talking about politics and travel.
 ![output9](https://github.com/mostwanted-786/NAAV/assets/32060433/391b4aa4-338e-4ae4-8b59-690014967d76)
 
 
