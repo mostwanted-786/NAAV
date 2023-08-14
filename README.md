@@ -157,14 +157,126 @@ Let's define a "ten-week hit" as a single song that appeared on the Billboard To
 # Visual Story Telling Part 2
 
 # Clustering and Dimensionality
+The data in wine.csv contains information on 11 chemical properties of 6500 different bottles of vinho verde wine from northern Portugal. In addition, two other variables about each wine are recorded:
+-   Whether the wine is red or white
+-   The quality of the wine, as judged on a 1-10 scale by a panel of certified wine snobs.
+
+Run PCA, tSNE, and any clustering algorithm of your choice on the 11 chemical properties (or suitable transformations thereof) and summarize your results. Which dimensionality reduction technique makes the most sense to you for this data? Convince yourself (and me) that your chosen approach is easily capable of distinguishing the reds from the whites, using only the "unsupervised" information contained in the data on chemical properties. Does your unsupervised technique also seem capable of distinguishing the higher from the lower-quality wines? Present appropriate numerical and/or visual evidence to support your conclusions.
+
+To clarify: I'm not asking you to run a supervised learning algorithm. Rather, I'm asking you to see whether the differences in the labels (red/white and quality score) emerge naturally from applying an unsupervised technique to the chemical properties. This should be straightforward to assess using plots.
+
+### Answer
+
+#### PCA | Wine Color Clustering                                                  
+![PCA Output-1](https://github.com/mostwanted-786/NAAV/assets/32060433/8bcdbb20-2822-43ef-af11-33353ab73561)
+#### tSNE | Wine Color Clustering   
+![tSNE Output -1](https://github.com/mostwanted-786/NAAV/assets/32060433/02589b2f-e123-477e-91e3-ff26b3fb9b65)
+
+Looking at the plots on actual vs predicted for wine color as well as the model accuracy it is evident that PCA is a better dimensionality reduction technique for this dataset. A Kmeans algorithm on data after PCA with just 2 variables is doing far better job (better accuracy) than that from tSNE.
+
+#### PCA | Wine Quality Clustering   
+![PCA Output -2](https://github.com/mostwanted-786/NAAV/assets/32060433/087ad1ae-96b4-4c56-a84f-9ee19a2e5475)
+#### tSNE | Wine Quality Clustering 
+![tSNE Output -2](https://github.com/mostwanted-786/NAAV/assets/32060433/0b44ff8f-bf26-49b2-b064-b3f3633a4561)
+
+The actual vs predictions plot made on wine quality using clustering tells us that both the techniques are not able to distinguish between the qualities of wines.
 
 # Market Segmentation
+Consider the data in social_marketing.csv. This was data collected in the course of a market-research study using followers of the Twitter account of a large consumer brand that shall remain nameless---let's call it "NutrientH20" just to have a label. The goal here was for NutrientH20 to understand its social-media audience a little bit better, so that it could hone its messaging a little more sharply.
+
+A bit of background on the data collection: the advertising firm who runs NutrientH20's online-advertising campaigns took a sample of the brand's Twitter followers. They collected every Twitter post ("tweet") by each of those followers over a seven-day period in June 2014. Every post was examined by a human annotator contracted through Amazon's Mechanical Turk service. Each tweet was categorized based on its content using a pre-specified scheme of 36 different categories, each representing a broad area of interest (e.g. politics, sports, family, etc.) Annotators were allowed to classify a post as belonging to more than one category. For example, a hypothetical post such as "I'm really excited to see grandpa go wreck shop in his geriatic soccer league this Sunday!" might be categorized as both "family" and "sports." You get the picture.
+
+Each row of social_marketing.csv represents one user, labeled by a random (anonymous, unique) 9-digit alphanumeric code. Each column represents an interest, which are labeled along the top of the data file. The entries are the number of posts by a given user that fell into the given category. Two interests of note here are "spam" (i.e. unsolicited advertising) and "adult" (posts that are pornographic, salacious, or explicitly sexual). There are a lot of spam and pornography "bots" on Twitter; while these have been filtered out of the data set to some extent, there will certainly be some that slip through. There's also an "uncategorized" label. Annotators were told to use this sparingly, but it's there to capture posts that don't fit at all into any of the listed interest categories. (A lot of annotators may used the "chatter" category for this as well.) Keep in mind as you examine the data that you cannot expect perfect annotations of all posts. Some annotators might have simply been asleep at the wheel some, or even all, of the time! Thus there is some inevitable error and noisiness in the annotation process.
+
+Your task to is analyze this data as you see fit, and to prepare a concise report for NutrientH20 that identifies any interesting market segments that appear to stand out in their social-media audience. You have complete freedom in deciding how to pre-process the data and how to define "market segment." (Is it a group of correlated interests? A cluster? A latent factor? Etc.) Just use the data to come up with some interesting, well-supported insights about the audience, and be clear about what you did.
+
+### Answer
+
+![output](https://github.com/mostwanted-786/NAAV/assets/32060433/fca17bd8-7d0e-4eab-b850-aeb31c53573d)
+![output 2](https://github.com/mostwanted-786/NAAV/assets/32060433/feced31b-ff1a-42c9-994d-50fe274bd493)
+![output 3](https://github.com/mostwanted-786/NAAV/assets/32060433/b1feb107-49fa-44b8-8421-c04ad2227c06)
+![output 4](https://github.com/mostwanted-786/NAAV/assets/32060433/bb9a1f61-d46f-4e84-822a-43b6155ab539)
+![output 5](https://github.com/mostwanted-786/NAAV/assets/32060433/95e90cc8-8df4-4e36-aaf1-690655a3be30)
+![output 6](https://github.com/mostwanted-786/NAAV/assets/32060433/202c444c-c7fe-49f8-9003-68565b34ab20)
+![output 7](https://github.com/mostwanted-786/NAAV/assets/32060433/17367161-71b6-4c83-a815-f719da097c41)
+![output 8](https://github.com/mostwanted-786/NAAV/assets/32060433/dd3e3963-4c6a-41f0-a270-7b0844a970e2)
+![output 9](https://github.com/mostwanted-786/NAAV/assets/32060433/1ed100ef-5fb2-46cc-aac4-35ddea823e74)
+![output 10](https://github.com/mostwanted-786/NAAV/assets/32060433/60790137-8c85-423d-8483-7b6c01e70de2)
+
 
 # Reuters Corpus
 
+Revisit the Reuters C50 text corpus that we briefly explored in class. Your task is simple: tell an interesting story, anchored in some analytical tools we have learned in this class, using this data. For example:
+
+* you could cluster authors or documents and tell a story about what you find.
+* you could look for common factors using PCA.
+* you could train a predictive model and assess its accuracy, constructing features for each document that maximize performance.
+* you could do anything else that strikes you as interesting with this data.
+
+Describe clearly what question you are trying to answer, what models you are using, how you pre-processed the data, and so forth. Make sure you include at least one really interesting plot (although more than one might be necessary, depending on your question and approach.)
+
+Format your write-up in the following sections, some of which might be quite short:
+
+* Question: What question(s) are you trying to answer?
+* Approach: What approach/statistical tool did you use to answer the questions?
+* Results: What evidence/results did your approach provide to answer the questions? (E.g. any numbers, tables, figures as appropriate.)
+* Conclusion: What are your conclusions about your questions? Provide a written interpretation of your results, understandable to stakeholders who might plausibly take an interest in this data set.
+
+Regarding the data itself: In the C50train directory, you have 50 articles from each of 50 different authors (one author per directory). Then in the C50test directory, you have another 50 articles from each of those same 50 authors (again, one author per directory). This train/test split is obviously intended for building predictive models, but to repeat, you need not do that on this problem. You can tell any story you want using any methods you want. Just make it compelling!
+
+Note: if you try to build a predictive model, you will need to figure out a way to deal with words in the test set that you never saw in the training set. This is a nontrivial aspect of the modeling exercise. (E.g. you might simply ignore those new words.)
+
+This question will be graded according to three criteria:
+
+1. the overall "interesting-ness" of your question and analysis.
+2. the clarity of your description. We will be asking ourselves: could your analysis be reproduced by a competent data scientist based on what you've said? (That's good.) Or would that person have to wade into the code in order to understand what, precisely, you've done? (That's bad.)
+3. technical correctness (i.e. did you make any mistakes in execution or interpretation?)
+
+
+### Answer
+
+* Question: Identify some topics from the text data and summarize your findings.
+
+* Approach: We utilized Latent Dirichlet Allocation (LDA), a generative probabilistic model, to extract the most important topics from the training data. LDA works by assuming that each document in the corpus is a mixture of a small number of topics, and each word's presence is attributable to one of the document's topics. We then identified the most prevalent topic in the test set files ([analysis notebook](https://github.com/mostwanted-786/NAAV/blob/main/07_Reuters%20Corpus/Reuters.ipynb)).
+
+* Results: Some of the topics that were identified through LDA were:
+  * Topic 1: ('united', 'states', 'trade', 'said', 'drug', 'china', 'ban', 'department', 'colombia', 'congress')
+  * Topic 2: ('hong', 'kong', 'china', 'said', 'tung', 'chinese', 'people', 'territory', 'rule', 'says')
+  * Topic 3: ('internet', 'corp', 'new', 'computer', 'said', 'software', 'technology', 'microsoft', 'network', 'services')
+  * Topic 4: ('said', 'financial', 'chairman', 'president', 'statement', 'company', 'vice', 'board', 'right', 'street')
+  * Topic 5: ('amp', 'local', 'long', 'market', 'competition', 'service', 'phone', 'cable', 'rules', 'companies')
+  * Topic 6: ('told', 'reuters', 'director', 'interview', 'reporters', 'quality', 'telephone', 'areas', 'conference', 'managing')
+  * Topic 7: ('china', 'said', 'beijing', 'chinese', 'official', 'taiwan', 'officials', 'economic', 'communist', 'state')
+  * Topic 8: ('news', 'said', 'early', 'fund', '1997', 'joint', 'year', 'venture', 'start', '1998')
+  * Topic 9: ('000', 'tonnes', 'said', 'saying', '100', 'cocoa', 'year', 'copper', '500', 'figures')
+  * Topic 10: ('percent', 'gold', 'price', 'said', 'share', 'market', '20', 'bre', '15', 'stocks')
+  * Topic 11: ('said', 'wang', 'court', 'rights', 'case', 'chinese', 'given', 'government', 'details', 'action')
+  * Topic 12: ('chief', 'executive', 'said', 'company', 'years', 'officer', 'new', 'ago', 'development', 'chairman')
+  
+  The "Topics" contains the keywords.
+  
+  After analyzing the test data files, it was found that topic 7 is the most prevalent topic in the test files.
+  
+  ![newplot](https://github.com/mostwanted-786/NAAV/assets/60353780/f0497b6e-03b5-4921-ba96-4e9c86e942a8)
+  
+  We also have a summary of the most frequent topics written by each of the writers.
+  
+  ![newplot](https://github.com/mostwanted-786/NAAV/assets/60353780/3286a6e3-1b06-496a-8848-5334ce588b58)
+
+* Conclusion: 
+
 # Association rule mining
 
-We analyzed the hidden relationships in the dataset given, which consists of baskets (i.e., items purchased in a shopping kart). The lift value of greater than 10 was selected, indicating a higher positive relation between the rules, and a confidence value of greater than 0.5, indicating a high likelihood of the relation. Also after hit and trial, these values provided 14 relations to analyze.
+Revisit the notes on association rule mining and the R example on music playlists: playlists.R and playlists.csv. Then use the data on grocery purchases in groceries.txt and find some interesting association rules for these shopping baskets. The data file is a list of shopping baskets: one person's basket for each row, with multiple items per row separated by commas. Pick your own thresholds for lift and confidence; just be clear what these thresholds are and say why you picked them. Do your discovered item sets make sense? Present your discoveries in an interesting and visually appealing way.
+
+Notes:
+
+* This is an exercise in visual and numerical story-telling. Do be clear in your description of what you've done, but keep the focus on the data, the figures, and the insights your analysis has drawn from the data, rather than technical details.
+* The data file is a list of baskets: one row per basket, with multiple items per row separated by commas. You'll have to cobble together your own code for processing this into the format expected by the "arules" package. This is not intrinsically all that hard, but it is the kind of data-wrangling wrinkle you'll encounter frequently on real problems, where your software package expects data in one format and the data comes in a different format. Figuring out how to bridge that gap is part of the assignment, and so we won't be giving tips on this front.
+
+### Answer
+
+We analyzed the hidden relationships in the dataset given, which consists of baskets (i.e., items purchased in a shopping kart). The lift value of greater than 10 was selected, indicating a higher positive relation between the rules, and a confidence value of greater than 0.5, indicating a high likelihood of the relation. Also after hit and trial, these values provided 14 relations to analyze (refer to the [R file](https://github.com/mostwanted-786/NAAV/blob/main/08_Association%20Rule%20Mining/groceries.R) and [graph](https://github.com/mostwanted-786/NAAV/blob/main/08_Association%20Rule%20Mining/groceries.graphml)).
 
 After looking at the rules we inferred a lot of exciting associations:
 * People who buy liquor or red/blush wine tend to buy bottled beer as well, indicating that all the liquor sections should be located in close proximity.
@@ -174,7 +286,18 @@ After looking at the rules we inferred a lot of exciting associations:
 
 # Image classification with neural networks
 
-The image data was trained with an 80/20 split between training and testing. The following CNN was used to train the data:
+In this problem, you will train a neural network to classify satellite images. In the data/EuroSAT_RGB directory, you will find 11 subdirectories, each corresponding to a different class of land or land use: e.g. industrial, crops, rivers, forest, etc. Within each subdirectory, you will find examples in .jpg format of each type. (Thus the name of the directory in which the image lives is the class label.)
+
+Your job is to set up a neural network that can classify the images as accurately as possible. Use an 80/20 train test split. Summarize your model and its accuracy in any way you see fit, but make you include at a minimum the following elements:
+
+overall test-set accuracy, measured however you think is appropriate
+show some of the example images from the test set, together with your model's predicted classes.
+a confusion matrix showing the performance of the model on the set test, i.e. a table that cross-tabulates each test set example by (actual class, predicted class).
+I strongly recommend the use of PyTorch in a Jupyter notebook for this problem; look into PyTorch's ImageFolder data set class, which will streamline things considerably.
+
+### Answer
+
+The image data was trained with an 80/20 split between training and testing (refer to the [file](https://github.com/mostwanted-786/NAAV/blob/main/09_Image%20Classification/Image%20Classification.ipynb)). The following CNN was used to train the data:
 (conv1): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1))
 (conv2): Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1))
 (conv3): Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1))
