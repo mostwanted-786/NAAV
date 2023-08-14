@@ -158,9 +158,8 @@ Let's define a "ten-week hit" as a single song that appeared on the Billboard To
 
 # Clustering and Dimensionality
 The data in wine.csv contains information on 11 chemical properties of 6500 different bottles of vinho verde wine from northern Portugal. In addition, two other variables about each wine are recorded:
-
-  . whether the wine is red or white
-  . the quality of the wine, as judged on a 1-10 scale by a panel of certified wine snobs.
+* whether the wine is red or white
+* the quality of the wine, as judged on a 1-10 scale by a panel of certified wine snobs.
 Run PCA, tSNE, and any clustering algorithm of your choice on the 11 chemical properties (or suitable transformations thereof) and summarize your results. Which dimensionality reduction technique makes the most sense to you for this data? Convince yourself (and me) that your chosen approach is easily capable of distinguishing the reds from the whites, using only the "unsupervised" information contained in the data on chemical properties. Does your unsupervised technique also seem capable of distinguishing the higher from the lower-quality wines? Present appropriate numerical and/or visual evidence to support your conclusions.
 
 To clarify: I'm not asking you to run a supervised learning algorithm. Rather, I'm asking you to see whether the differences in the labels (red/white and quality score) emerge naturally from applying an unsupervised technique to the chemical properties. This should be straightforward to assess using plots.
